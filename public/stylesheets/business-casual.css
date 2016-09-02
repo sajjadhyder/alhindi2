@@ -81,7 +81,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.8);
 }
 
 .intro-text {
@@ -110,6 +110,12 @@ footer {
 footer p {
     margin: 0;
     padding: 50px 0;
+}
+.dropdown-menu{
+    text-transform: none;
+    font-family: "Josefin Slab";
+    font-size: medium;
+    font-weight: bolder;
 }
 
 @media screen and (min-width:768px) {

@@ -55,11 +55,17 @@ app.get('/index2', function(request, response) {
 app.get('/thanks', function(request, response) {
   response.render('pages/thanks');
 });
+app.get('/introduction', function(request, response) {
+  response.render('pages/introduction');
+});
+app.get('/message-from-management', function(request, response) {
+  response.render('pages/message');
+});
 app.get('/login', function(request, response) {
   response.render('pages/login');
 });
-app.get('/product', function(request, response) {
-  response.render('pages/product');
+app.get('/services', function(request, response) {
+  response.render('pages/services');
 });
 app.get('/contact', function(request, response) {
   response.render('pages/contact');

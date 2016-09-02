@@ -1,7 +1,7 @@
 {
-  "name": "cocofino",
+  "name": "Fouzi Al-Hindi Contracting",
   "version": "0.0.1",
-  "description": "Cocofino 100% pure coconut oil",
+  "description": "Create and realize your concrete dreams",
   "engines": {
     "node": "5.9.1"
   },
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/sajjadhyder/alhindi2"
   },
   "keywords": [
     "node",
