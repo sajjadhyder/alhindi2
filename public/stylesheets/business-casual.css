@@ -13,6 +13,7 @@ body {
     -o-background-size: cover;
 }
 
+
 h1,
 h2,
 h3,
@@ -34,6 +35,13 @@ p {
 hr {
     max-width: 400px;
     border-color: #999999;
+}
+li{
+    font-size: 1.1em;
+}
+.banner-text{
+    top: 118px;
+    position: relative;
 }
 
 .brand,

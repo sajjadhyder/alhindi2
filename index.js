@@ -67,6 +67,53 @@ app.get('/login', function(request, response) {
 app.get('/services', function(request, response) {
   response.render('pages/services');
 });
+app.get('/services/civil', function(request, response) {
+  response.render('pages/civil');
+});
+app.get('/services/hvac', function(request, response) {
+  response.render('pages/hvac');
+});
+app.get('/services/maintenance', function(request, response) {
+  response.render('pages/maintenance');
+});
+
+app.get('/services/electrical', function(request, response) {
+  response.render('pages/electrical');
+});
+app.get('/services/fire-protection-and-piping', function(request, response) {
+  response.render('pages/fire-protection-and-piping');
+});
+app.get('/services/steel-fabrication', function(request, response) {
+  response.render('pages/steel-fabrication');
+});
+app.get('/services/contracting', function(request, response) {
+  response.render('pages/contracting');
+});
+app.get('/services/manpower', function(request, response) {
+  response.render('pages/manpower');
+});
+app.get('/services/materials-equipment-tools', function(request, response) {
+  response.render('pages/materials-equipment-tools');
+});
+app.get('/about-us/vision-and-mission', function(request, response) {
+  response.render('pages/vision-and-mission');
+});
+
+
+
+
+app.get('/services/insulation', function(request, response) {
+  response.render('pages/insulation');
+});
+app.get('/services/painting-and-coating', function(request, response) {
+  response.render('pages/painting-and-coating');
+});
+app.get('/services/surface-preparation-and-coating', function(request, response) {
+  response.render('pages/surface-preparation-and-coating');
+});
+app.get('/services/other-services', function(request, response) {
+  response.render('pages/other-services');
+});
 app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
