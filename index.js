@@ -98,7 +98,9 @@ app.get('/services/materials-equipment-tools', function(request, response) {
 app.get('/about-us/vision-and-mission', function(request, response) {
   response.render('pages/vision-and-mission');
 });
-
+app.get('/services/tank-cleaning-and-oil-recovery', function(request, response) {
+  response.render('pages/tank-cleaning-and-oil-recovery');
+});
 
 
 
